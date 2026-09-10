@@ -1,0 +1,30 @@
+{
+  "name": "svelte-adapter-deploy-stack",
+  "version": "1.0.0",
+  "description": "A SvelteKit adapter for deploying and managing Day 1 and Day 2 AWS ECS Fargate infrastructure.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "svelte-adapter",
+    "sveltekit-adapter",
+    "aws-fargate",
+    "ecs",
+    "terraform",
+    "deploy-stack",
+    "devsecops",
+    "devops"
+  ],
+  "peerDependencies": {
+    "@sveltejs/kit": "^2.0.0"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-node": "^5.0.0"
+  },
+  "author": "anton-codes-iac",
+  "license": "MIT"
+}
