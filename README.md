@@ -7,7 +7,8 @@ This adapter wraps `@sveltejs/adapter-node` to compile your SvelteKit applicatio
 ## Why?
 Building the app is only half the battle. This adapter hooks directly into your SvelteKit build process to solve both Day 1 and Day 2 platform engineering challenges natively:
 * **Day 1 (Deployment):** Automatically generates optimized Dockerfiles, Fargate Terraform modules, and GitHub Actions CI/CD pipelines natively tailored to your SvelteKit SSR app.
-* **Day 2 (Management):** Zero-secret OIDC deployments, Trivy container/IaC vulnerability scanning, ALB health checks, and seamless teardown capabilities.
+* **Day 2 (Management):** Zero-secret OIDC deployments, ALB health checks, and seamless teardown capabilities.
+* **DevSecOps Built-In:** Generates a Multi-Stage Dockerfile that natively bypasses CI/CD loops, strips global NPM binaries in production for zero-CVE Trivy scans, and ensures least-privilege container execution.
 
 ## Installation
 
